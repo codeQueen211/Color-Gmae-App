@@ -1,0 +1,102 @@
+body{
+    background-color: antiquewhite;
+}
+h1,h2{
+    text-align: center;
+    font-family: sans-serif;
+    color: darkblue;
+    /* margin-top: 80px; */
+}
+.container{
+    display: grid;
+    flex-direction: row;
+    grid-template-rows: auto auto auto;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    align-items: center;
+    grid-gap: 10px;
+    padding-right: 300px;
+    padding-left: 330px;
+    padding-bottom: 700px;
+    height: 100vh;  
+}
+
+.container button{
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+    border: none;
+    font-size: 20px;
+    box-shadow: 4px 4px 8px gray;
+    font-family: fantasy;
+}
+.container button:hover{
+    background-color: rgb(183, 151, 102);
+    transform: scale(1.1);
+    transition: 0.5s;
+    cursor: pointer;
+    
+}
+.Red{
+    background-color: red;
+    color: red;
+}
+.Red:hover{
+    color: red;
+}
+.Blue{
+    background-color: blue;
+    color: blue;
+}
+.Blue:hover{
+    color: blue;
+}
+.Green{
+    background-color: green;
+    color: green;
+}
+.Green:hover{
+    color: green;
+}
+.Yellow{
+    background-color: yellow;
+    color: yellow;
+}
+.Yellow:hover{
+    color: yellow;
+}
+.Pink{
+    background-color: pink;
+    color: pink;
+}
+.Pink:hover{
+    color: pink;
+}
+.Purple{
+    background-color: purple;
+    color: purple;
+}
+.Purple:hover{
+    color: purple;
+}
+.Black{
+    background-color: black;
+    color: black;
+}
+.Black:hover{
+    color: black;
+}
+.White{
+    background-color: white;
+    color: white;
+}
+.White:hover{
+    color: white;
+}
+.Gray{
+    background-color: gray;
+    color: gray;
+}
+.Gray:hover{
+    color: gray;
+}
